@@ -637,3 +637,30 @@ nav {
     background-color: #62c7ff;
     color: white;
 }
+
+
+.backToTop{
+    /* thẻ a là inline nên kh xét được kích thước  */
+    /* Muốn thay đổi thì đổi sang thẻ block  */
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #007cc0;
+    border-radius: 4px;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cd-top--is-visible {   
+    visibility: visible;
+    opacity: 1;
+  }
