@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #00324f;
+}
+.element {
+    @include clearfix;
+  }
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #007cc0;
+    height: 50px;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 15;
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    display: initial;
+}
+
+.header__left img{
+    height: 40px;
+    width: 60px;
+}
+.carousel button{
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 1.95rem;
+    height: 35px;
+    width: 150px;
+    font-weight: 700;
+}
+
+.carousel button:hover{
+    color: red;
+    background-color: white;
+}
+
+.carousel-indicators li{
+    background-color: rgb(33, 152, 220);
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.nav-link{
+    background-size: 200% 200%;
+    transition: color .5s ease;
+}
+
+.nav-link:hover{
+    
+    background-image: linear-gradient(
+        180deg
+        ,#fff 50%,transparent 0);
+    color: #00324f;
+    background-position: 0 0;
+}
+
+
+dl, ol, ul {
+    margin-bottom: -2rem;
+}
+
+.carousel-item img{
+    height: 550px;
+    background-position: center;
+    object-fit: cover;
+}
+
+.imgboth__left{
+    background-image: url(../img/MY22_Civic_Sedan_Future_Gallery_1400.jpg);
+    height: 370px;
+    width: 576,5px;
+    background-size: cover;
+    background-position: center;
+}
+.imgboth__right{
+    background-image: url(../img/Autos_Pilot1_Homepage_1400.webp);
+    height: 370px;
+    width: 576,5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__leftboth button  {
+        transform: translate( -50%);
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        width: 150px;
+        height: 45px;
+        border-radius: 1.95rem;
+        background-color: #337ab7;
+        color: #fff;
+        border: 2px solid#337ab7;
+        font-weight: 700 ;
+}
+
+.header__leftboth button:hover{
+    background-color: transparent;
+    color: #337ab7;
+    border: 2px solid#337ab7;
+}
+
+.header__leftboth{
+    margin-top: 100px;
+}
